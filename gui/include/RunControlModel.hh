@@ -53,6 +53,7 @@ public:
 
   int GetLevel(const QModelIndex &index) const;
   void UpdateDisplayed();
+  bool CheckConfigured();
 
   int rowCount(const QModelIndex &parent = QModelIndex()) const;
   int columnCount(const QModelIndex &parent = QModelIndex()) const;
