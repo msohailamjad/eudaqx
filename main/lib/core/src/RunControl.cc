@@ -41,7 +41,7 @@ namespace eudaq {
 	EUDAQ_ERROR(e.first+" is not Status::STATE_UNINIT OR Status::STATE_UNCONF");
       }
     }
-    SendCommand("RESET");
+    SendCommand("INIT");
   }
   
   void RunControl::Configure(){
